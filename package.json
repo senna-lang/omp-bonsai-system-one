@@ -1,0 +1,22 @@
+{
+  "name": "system-one-bonsai",
+  "version": "0.1.0",
+  "description": "Local System One judge for omp on frozen Ternary-Bonsai-4B, with an optional model router",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/senna-lang/omp-system-one-bonsai",
+  "type": "module",
+  "omp": {
+    "extensions": [
+      "./judge.ts"
+    ],
+    "features": {
+      "router": {
+        "description": "Switch the session to @smol / @mid (or @default) / @slow from the first prompt's rated difficulty",
+        "default": false,
+        "extensions": [
+          "./router.ts"
+        ]
+      }
+    }
+  }
+}
