@@ -17,7 +17,13 @@ The plugin assigns no models; a tier whose roles are unset keeps the current mod
 ## Install
 
 1. Install and run the local server from [bonsai-4b-system-one](https://github.com/senna-lang/bonsai-4b-system-one#local-server-system-one-api-format) (Apple Silicon: MLX, about 1.1 GB of weights).
-2. Install the plugin:
+2. Install the plugin from npm:
+
+   ```bash
+   omp plugin install 'omp-bonsai-system-one[router]'     # drop [router] for the judge only
+   ```
+
+   or from this repository as a marketplace:
 
    ```bash
    omp plugin marketplace add senna-lang/omp-bonsai-system-one
