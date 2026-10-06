@@ -1,9 +1,9 @@
 {
-  "name": "system-one-bonsai",
+  "name": "omp-bonsai-system-one",
   "version": "0.1.0",
   "description": "Local System One judge for omp on frozen Ternary-Bonsai-4B, with an optional model router",
   "license": "Apache-2.0",
-  "repository": "https://github.com/senna-lang/omp-system-one-bonsai",
+  "repository": "https://github.com/senna-lang/omp-bonsai-system-one",
   "type": "module",
   "omp": {
     "extensions": [

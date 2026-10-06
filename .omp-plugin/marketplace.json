@@ -1,5 +1,5 @@
 {
-  "name": "omp-system-one-bonsai",
+  "name": "omp-bonsai-system-one",
   "owner": {
     "name": "senna-lang"
   },
@@ -8,12 +8,12 @@
   },
   "plugins": [
     {
-      "name": "system-one-bonsai",
+      "name": "omp-bonsai-system-one",
       "description": "Local System One judge for omp's judge role (auto thinking and other judgments), with an optional model router",
       "source": "./",
       "version": "0.1.0",
       "license": "Apache-2.0",
-      "homepage": "https://github.com/senna-lang/omp-system-one-bonsai",
+      "homepage": "https://github.com/senna-lang/omp-bonsai-system-one",
       "category": "development"
     }
   ]

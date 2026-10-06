@@ -1,4 +1,4 @@
-# omp-system-one-bonsai
+# omp-bonsai-system-one
 
 A plugin for the [omp](https://github.com/can1357/oh-my-pi) coding agent that runs omp's `judge` role on a local System One model: [bonsai-4b-system-one](https://github.com/senna-lang/bonsai-4b-system-one), a frozen Ternary-Bonsai-4B served over HTTP. The judge drives omp's per-prompt `auto` thinking level and its other typed judgments; with this plugin they run offline and at no cost.
 
@@ -20,9 +20,9 @@ The plugin assigns no models; a tier whose roles are unset keeps the current mod
 2. Install the plugin:
 
    ```bash
-   omp plugin marketplace add senna-lang/omp-system-one-bonsai
-   omp plugin install system-one-bonsai@omp-system-one-bonsai
-   omp plugin features system-one-bonsai --enable router     # optional
+   omp plugin marketplace add senna-lang/omp-bonsai-system-one
+   omp plugin install omp-bonsai-system-one@omp-bonsai-system-one
+   omp plugin features omp-bonsai-system-one --enable router     # optional
    ```
 
 3. Select the model for the judge role in `~/.omp/agent/config.yml`:
